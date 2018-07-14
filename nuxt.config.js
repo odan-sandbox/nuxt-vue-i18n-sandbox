@@ -17,6 +17,9 @@ module.exports = {
     middleware: 'i18n'
   },
   plugins: ['~/plugins/i18n.js'],
+  generate: {
+    routes: ['/', '/en',]
+  },
   /*
   ** Customize the progress bar color
   */
